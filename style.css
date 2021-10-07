@@ -1,0 +1,498 @@
+*{
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: whitesmoke;
+    font-family: calibri;
+    color: black;
+  }
+  
+
+
+  
+/*Navigation*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    margin: 0px 24px;
+}
+
+nav .logo {
+    width: 48px;
+}
+
+nav .logo img {
+    display: flex;
+    height: 48px;
+    align-items: center; 
+}
+
+nav div .calmor{
+    display: flex;
+    font-weight: bold;
+    letter-spacing: .6px;
+    font-size: 32px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav div .academy{
+    display: flex;
+    font-weight: lighter;
+    color: grey;
+    letter-spacing: .6px;
+    font-size: 32px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav div {
+    display: flex;
+    margin: 0 24px;
+}
+
+nav ul {
+    display: flex;
+    padding: 0px 16px;
+    padding: 0;
+    list-style: none;    
+}
+
+nav ul li {
+    margin: 0 16px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+/*section 1*/
+
+.learn {
+    display: flex;
+    width: 100%;
+    background-color:lightgrey;
+    align-items: center;
+}
+
+.learn .img {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.learn img {
+    width: 100%;
+}
+
+.learnText {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 40%;
+}
+
+.learnText div {
+    margin-left: 24px;
+    width: 75%;
+}
+
+.learnText h2 {
+    font-size: 3rem;
+    margin: 30px;
+}
+
+.learn p {
+    font-size: 30px;
+    font-weight: 550;
+    margin: 30px;
+}
+
+.learn button {
+    background-color:#99004d;
+    color: white;
+    font-weight: 100;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin: 30px;
+    height: 60px;
+    width: 70%;
+}
+
+/*section 2*/
+
+.sectionTwo {
+    display: flex;
+    width: 100%;
+}
+
+.leftTable {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 24px 0px 24px;
+    width: 60%;
+    flex-shrink: 1;
+
+}
+
+.leftTable img {
+    width: 100%;
+}
+
+.leftTable div h2 {
+    margin: 32px 0px 24px 0px;
+    font-size: 3rem;
+}
+.leftTable div p {
+    font-size: 1.5rem;
+    margin: 16px 0px 32px 0px;
+}
+.leftTable div h5 {
+    font-size: 1rem;
+    margin-left: 0px;
+    margin-bottom: 32px;
+}
+
+.rightTable {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.rightTable .article {
+    display: flex;
+    justify-content: left;
+    border: solid 1px  lightgrey;
+    padding: 16px;
+}
+
+#orientation {
+    padding-top: 32px;
+    border-top: none;
+}
+
+#guestLecture {
+    background-color: lightgrey;
+}
+
+#space{
+    padding: 32px;
+    border-bottom: none;
+}
+
+.rightTable .article div {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.article img {
+    width: 35%;
+    max-height: 100%;
+}
+
+.article div{
+    display: flexbox;
+    width: 65%;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.article h3 {
+    display: flex;
+    font-size: 2.5rem;
+}
+
+.article p{
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.article h4 {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 540;
+    color: rgb(173, 173, 255);
+}
+
+.article h3, .article p, .article h4 {
+    margin: 8px 16px;
+}
+
+
+
+/*section 3*/
+.courses {
+    background-color: lightgrey;
+    width: auto;
+    text-align: center;
+    padding: 32px 56px;
+}
+
+.courses h2 {
+    padding: 16px;
+    font-size: 2.5rem;
+}
+
+.courses div {
+    display: flex;
+    flex-shrink: 1;
+    margin: 16px;
+    text-align: left;
+}
+
+.courses div div {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    overflow: auto;
+    background-color: white;
+}
+
+.courses div div h3, 
+.courses div div h5, 
+.courses div div p {
+    margin: 0px 16px;
+}
+
+.courses div div h3 {
+    font-size: 2rem;
+    margin-top: 16px;
+}
+
+.courses div div h5 {
+    font-size: 1.5rem;
+    margin: 8px 16px;
+    font-weight: 400;
+    color: grey;
+}
+
+.courses div div p {
+    font-size: 1.5rem;
+    margin-bottom: 24px;
+    color: grey;
+}
+
+/*section 4*/
+.exhibitTitle {
+    text-align: center;
+    margin: 32px;
+    font-size: 3rem;
+    font-weight: 1000;
+    color: rgb(90, 88, 88);
+}
+
+.sectionFour {
+    display: flex;
+    border-bottom: solid 1px lightgray;
+}
+
+.exhibit {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0px 24px;
+}
+
+.exhibitExample {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.exampleBlock {
+    display: flex;
+}
+
+.exampleBlock img {
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+
+.exampleBlock div {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.greyBlock {
+    background-color: grey;
+}
+
+.exampleBlock div h3 {
+    font-size: 3rem;
+    margin: 16px 0px;
+}
+
+.exampleBlock div p {
+    font-size: 2rem;
+}
+
+.videoText {
+    margin: 24px 0px;
+}
+.videoText h3 {
+    font-size: 3rem;
+}
+
+.videoText p {
+ margin: 8px 0px;
+ font-size:1.5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0px;
+}
+
+footer P {
+    margin: 8px;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+}
+footer ul li {
+    margin: 8px;
+}
+
+
+/*media Querie hide Desktop*/
+@media only screen and (max-width: 600px) {
+ .learn,.deskNav, .sectionTwo, .courses, .exhibition {
+     display: none;
+    }
+}
+
+/*Mobile Navigation*/
+.mobileNav {
+    display: flex;
+    padding: 48px 0px;
+}
+
+/*Section 1 mobile*/
+.mobileSecOne {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width:100%;
+    background-color: lightgrey;
+}
+.mobileSecOne div img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.secOneText {
+    margin: 0px 16px;
+    border: solid 2px lightblue;
+}
+
+.mobileSecOne div h2 {
+    font-size: 3rem;
+    color: rgb(73, 73, 73);
+}
+
+.mobileSecOne div p {
+    font-size: 1.75rem;
+    color: rgb(73,73,73);
+    margin: 24px 0px 32px 0px;
+}
+
+.mobileSecOne div button {
+    height: 60px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    width: 100%;
+    background-color: grey;
+    margin-bottom: 32px;
+    border: none;
+}
+
+/*Section 2 mobile*/
+.mobileSecTwo {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px 32px 16px ;
+}
+.mobileSecTwo div {
+    margin: 16px;
+}
+
+.mobileSecTwo div h3 {
+    font-size: 2.2rem;
+}
+.mobileSecTwo div p {
+    font-size: 1.5rem;
+    margin: 8px 0px;
+    color:grey;
+    font-weight: lighter;
+}
+.mobileSecTwo div h4 {
+    color: rgb(146, 146, 243);
+    font-size: 1.5rem;
+    margin-bottom: 64px;
+}
+.ourGuest h4 {
+    margin-bottom: 0px;
+}
+
+/*Section 3 mobile*/
+.mobileSecThree {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px lightgrey;
+    padding: 32px 16px;
+}
+
+.mobileSecThree h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+}
+.mobileSecThree h3 {
+    background-color: lightgray;
+    color: rgb(90, 90, 90);
+    font-size: 1.2rem;
+    text-align: left;
+    margin: 8px;
+    padding: 16px 16px 24px 16px;
+}
+/*Section 4 mobile*/
+.mobileSecFour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mobileSecFour h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 32px 0px 16px 0px;
+}
+.mobileSecFour section video {
+margin-bottom: 24px;
+}
+
+/*media queries hide mobile*/
+@media only screen and (min-width: 600px) {
+    .mobileNav, .mobileSecOne{
+        display: none;
+    }
+  }
